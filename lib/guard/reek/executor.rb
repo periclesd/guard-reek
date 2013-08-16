@@ -4,7 +4,7 @@ module Guard
   class Reek
     class Executor
       def self.execute(paths)
-        UI.info "Running flay for files: '#{paths.join('\', \'')}'", reset: true
+        UI.info "Running reek for files: '#{paths.join('\', \'')}'", reset: true
 
         ::Reek::Cli::Application.new(paths).execute
       end
