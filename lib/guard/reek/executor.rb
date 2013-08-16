@@ -7,6 +7,7 @@ module Guard
         UI.info "Running reek for files: '#{paths.join('\', \'')}'", reset: true
 
         ::Reek::Cli::Application.new(paths).execute
+        puts
       end
     end
   end
