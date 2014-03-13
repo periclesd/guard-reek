@@ -1,4 +1,4 @@
-# Guard::Reek
+# Guard::Reek [![Dependency Status](https://gemnasium.com/pericles/guard-reek.png)](https://gemnasium.com/pericles/guard-reek)
 
 Reek guard reeks every file on change.
 
