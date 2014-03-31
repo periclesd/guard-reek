@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.rubyforge_project         = 'guard-reek'
 
   spec.add_dependency 'guard', '>= 1.8'
-  spec.add_dependency 'reek', '~> 1.3.2'
+  spec.add_dependency 'reek', '~> 1.3.7'
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
