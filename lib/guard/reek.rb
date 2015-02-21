@@ -1,8 +1,7 @@
-require 'guard'
-require 'guard/guard'
+require 'guard/compat/plugin'
 
 module Guard
-  class Reek < Guard
+  class Reek < Plugin
     autoload :Executor, 'guard/reek/executor'
 
     def start; end
